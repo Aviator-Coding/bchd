@@ -44,8 +44,8 @@ import (
 	"github.com/aviator-coding/bchd/txscript"
 	"github.com/aviator-coding/bchd/version"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchutil/merkleblock"
+	"github.com/aviator-coding/bchutil"
+	"github.com/aviator-coding/bchutil/merkleblock"
 )
 
 // API version constants

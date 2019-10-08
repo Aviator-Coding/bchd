@@ -11,7 +11,7 @@ import (
 	"github.com/aviator-coding/bchd/mempool"
 	"github.com/aviator-coding/bchd/peer"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

@@ -19,7 +19,7 @@ import (
 	"github.com/aviator-coding/bchd/mempool"
 	peerpkg "github.com/aviator-coding/bchd/peer"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 const (

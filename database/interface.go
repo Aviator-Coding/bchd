@@ -9,7 +9,7 @@ package database
 
 import (
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a

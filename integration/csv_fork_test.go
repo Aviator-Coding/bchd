@@ -21,7 +21,7 @@ import (
 	"github.com/aviator-coding/bchd/integration/rpctest"
 	"github.com/aviator-coding/bchd/txscript"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // fixedExcessiveBlockSize should not be the default -we want to ensure it will work in all cases

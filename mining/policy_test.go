@@ -11,7 +11,7 @@ import (
 	"github.com/aviator-coding/bchd/blockchain"
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 const MockMaxOutputsPerBlock = 32000000 / wire.MinTxOutPayload

@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/gcash/bchlog"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // blockProgressLogger provides periodic logging for other services in order

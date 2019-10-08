@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/aviator-coding/bchd/chaincfg"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 const (

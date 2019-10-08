@@ -6,7 +6,7 @@ package txscript
 
 import (
 	"github.com/aviator-coding/bchd/chaincfg"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"testing"
 
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"

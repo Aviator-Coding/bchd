@@ -15,7 +15,7 @@ import (
 	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/aviator-coding/bchd/database"
 	"github.com/aviator-coding/bchd/database/ffldb"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // dbType is the database type name for this driver.

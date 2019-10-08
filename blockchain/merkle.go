@@ -8,7 +8,7 @@ import (
 	"math"
 
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // nextPowerOfTwo returns the next highest power of two from a given number if

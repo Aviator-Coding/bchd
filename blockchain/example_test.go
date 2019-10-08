@@ -14,7 +14,7 @@ import (
 	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/aviator-coding/bchd/database"
 	_ "github.com/aviator-coding/bchd/database/ffldb"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

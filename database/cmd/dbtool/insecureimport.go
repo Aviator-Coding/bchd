@@ -15,7 +15,7 @@ import (
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/database"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // importCmd defines the configuration options for the insecureimport command.

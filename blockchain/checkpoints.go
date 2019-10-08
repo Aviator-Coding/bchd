@@ -11,7 +11,7 @@ import (
 	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/txscript"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current

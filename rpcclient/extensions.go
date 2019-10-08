@@ -15,7 +15,7 @@ import (
 	"github.com/aviator-coding/bchd/btcjson"
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

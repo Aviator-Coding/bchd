@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gcash/bchutil/gcs/builder"
+	"github.com/aviator-coding/bchutil/gcs/builder"
 
 	"github.com/aviator-coding/bchd/addrmgr"
 	"github.com/aviator-coding/bchd/blockchain"
@@ -40,8 +40,8 @@ import (
 	"github.com/aviator-coding/bchd/txscript"
 	"github.com/aviator-coding/bchd/version"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchutil/bloom"
+	"github.com/aviator-coding/bchutil"
+	"github.com/aviator-coding/bchutil/bloom"
 )
 
 const (

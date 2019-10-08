@@ -12,7 +12,7 @@ import (
 
 	"github.com/aviator-coding/bchd/txscript"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // txValidateItem holds a transaction along with which input to validate.
