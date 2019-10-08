@@ -13,7 +13,7 @@ import (
 	"github.com/aviator-coding/bchd/database"
 	_ "github.com/aviator-coding/bchd/database/ffldb"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

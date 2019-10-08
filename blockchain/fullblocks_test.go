@@ -20,7 +20,7 @@ import (
 	_ "github.com/aviator-coding/bchd/database/ffldb"
 	"github.com/aviator-coding/bchd/txscript"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 const (

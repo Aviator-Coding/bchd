@@ -18,7 +18,7 @@ import (
 
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/mining"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

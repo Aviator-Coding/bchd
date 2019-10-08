@@ -12,7 +12,7 @@ import (
 
 	"github.com/aviator-coding/bchd/rpcclient"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 func main() {

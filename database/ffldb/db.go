@@ -25,7 +25,7 @@ import (
 	"github.com/aviator-coding/bchd/database"
 	"github.com/aviator-coding/bchd/database/internal/treap"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 const (

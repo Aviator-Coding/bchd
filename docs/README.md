@@ -206,7 +206,7 @@ information.
     * [mempool](https://github.com/aviator-coding/bchd/tree/master/mempool) -
       Package mempool provides a policy-enforced pool of unmined bitcoin
       transactions.
-    * [bchutil](https://github.com/gcash/bchutil) - Provides Bitcoin-specific
+    * [bchutil](https://github.com/aviator-coding/bchutil) - Provides Bitcoin-specific
       convenience functions and types
     * [chainhash](https://github.com/aviator-coding/bchd/tree/master/chaincfg/chainhash) -
       Provides a generic hash type and associated functions that allows the

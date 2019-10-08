@@ -17,7 +17,7 @@ import (
 	"github.com/aviator-coding/bchd/mining"
 	"github.com/aviator-coding/bchd/txscript"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"sort"
 )
 

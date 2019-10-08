@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/aviator-coding/bchd/database"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

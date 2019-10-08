@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"github.com/aviator-coding/bchd/chaincfg"
 )
 

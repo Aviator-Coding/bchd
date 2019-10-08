@@ -13,9 +13,9 @@ import (
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/database"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchutil/gcs"
-	"github.com/gcash/bchutil/gcs/builder"
+	"github.com/aviator-coding/bchutil"
+	"github.com/aviator-coding/bchutil/gcs"
+	"github.com/aviator-coding/bchutil/gcs/builder"
 )
 
 const (

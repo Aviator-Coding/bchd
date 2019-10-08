@@ -1095,7 +1095,7 @@ package main
 
 import (
 	"github.com/aviator-coding/bchd/rpcclient"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"io/ioutil"
 	"log"
 	"path/filepath"
@@ -1156,7 +1156,7 @@ package main
 
 import (
 	"github.com/aviator-coding/bchd/rpcclient"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/wire"
 	"io/ioutil"
@@ -1248,7 +1248,7 @@ package main
 
 import (
 	"github.com/aviator-coding/bchd/rpcclient"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"github.com/aviator-coding/bchd/wire"
 	"io/ioutil"

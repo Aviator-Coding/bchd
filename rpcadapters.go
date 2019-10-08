@@ -13,7 +13,7 @@ import (
 	"github.com/aviator-coding/bchd/netsync"
 	"github.com/aviator-coding/bchd/peer"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

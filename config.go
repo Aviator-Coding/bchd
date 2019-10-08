@@ -30,7 +30,7 @@ import (
 	"github.com/aviator-coding/bchd/mempool"
 	"github.com/aviator-coding/bchd/peer"
 	"github.com/aviator-coding/bchd/version"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 
 	flags "github.com/jessevdk/go-flags"
 )

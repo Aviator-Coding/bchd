@@ -11,7 +11,7 @@ import (
 	"github.com/aviator-coding/bchd/bchec"
 	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // RawTxInECDSASignature returns the serialized ECDSA signature for the input idx of

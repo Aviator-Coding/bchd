@@ -22,7 +22,7 @@ import (
 	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/aviator-coding/bchd/database"
 	"github.com/aviator-coding/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // fixedExcessiveBlockSize should not be the default -we want to ensure it will work in all cases

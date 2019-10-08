@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/aviator-coding/bchd/chaincfg"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // mustParseShortForm parses the passed short form script and returns the

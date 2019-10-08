@@ -11,7 +11,7 @@ import (
 
 	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/aviator-coding/bchd/database"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

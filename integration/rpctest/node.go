@@ -15,7 +15,7 @@ import (
 	"time"
 
 	rpc "github.com/aviator-coding/bchd/rpcclient"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a bchd process

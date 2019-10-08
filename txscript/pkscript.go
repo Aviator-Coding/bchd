@@ -7,7 +7,7 @@ import (
 
 	"github.com/aviator-coding/bchd/bchec"
 	"github.com/aviator-coding/bchd/chaincfg"
-	"github.com/gcash/bchutil"
+	"github.com/aviator-coding/bchutil"
 	"golang.org/x/crypto/ripemd160"
 )
 
