@@ -216,6 +216,10 @@ type MessageListeners struct {
 	// message.
 	OnBlockTxns func(p *Peer, msg *wire.MsgBlockTxns)
 
+	// OnGetSporks is invoked when a peer receives a getsporks bitcoin
+	// message.
+	OnGetSporks func(p *Peer, msg *wire.MsgGetSporks)
+
 	// OnRead is invoked when a peer receives a bitcoin message.  It
 	// consists of the number of bytes read, the message, and whether or not
 	// an error in the read occurred.  Typically, callers will opt to use
@@ -1646,6 +1650,10 @@ out:
 			if p.cfg.Listeners.OnReject != nil {
 				p.cfg.Listeners.OnReject(p, msg)
 			}
+		case *wire.MsgGetSporks:
+			if p.cfg.Listeners.OnGetSporks != nil {
+				p.cfg.Listeners.OnGetSporks(p, msg)
+			}
 
 		case *wire.MsgSendHeaders:
 			p.flagsMtx.Lock()
@@ -2063,6 +2071,14 @@ func (p *Peer) readRemoteVersionMsg() error {
 	remoteMsg, _, err := p.readMessage(wire.LatestEncoding)
 	if err != nil {
 		return err
+	}
+
+	_, okSporks := remoteMsg.(*wire.MsgGetSporks)
+	if okSporks {
+		remoteMsg, _, err = p.readMessage(wire.LatestEncoding)
+		if err != nil {
+			return err
+		}
 	}
 
 	// Notify and disconnect clients if the first message is not a version
