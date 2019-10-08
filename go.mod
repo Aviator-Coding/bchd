@@ -1,4 +1,4 @@
-module github.com/Aviator-Coding/bchd
+module github.com/aviator-coding/bchd
 
 go 1.12
 
@@ -9,9 +9,9 @@ require (
 	github.com/btcsuite/winsvc v1.0.0
 	github.com/davecgh/go-spew v1.1.0
 	github.com/dchest/siphash v1.2.1
-	github.com/Aviator-Coding/bchd v0.14.8 // indirect
+	github.com/aviator-coding/bchd v0.14.8 // indirect
 	github.com/gcash/bchlog v0.0.0-20180913005452-b4f036f92fa6
-	github.com/gcash/bchutil v0.0.0-20190625002603-800e62fe9aff
+	github.com/aviator-coding/bchutil v0.0.0-20190625002603-800e62fe9aff
 	github.com/golang/protobuf v1.3.1
 	github.com/improbable-eng/grpc-web v0.9.1
 	github.com/jessevdk/go-flags v0.0.0-20181221193153-c0795c8afcf4

@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // FutureRawResult is a future promise to deliver the result of a RawRequest RPC

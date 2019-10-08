@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/Aviator-Coding/bchd/database"
+	"github.com/aviator-coding/bchd/database"
 )
 
 // The serialized write cursor location format is:

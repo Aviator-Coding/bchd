@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // TestHelpers tests the various helper functions which create pointers to

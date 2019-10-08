@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/txscript"
 )
 
 // TestCheckBlockScripts ensures that validating the all of the scripts in a

@@ -7,7 +7,7 @@ package rpcclient
 import (
 	"encoding/json"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // AddNodeCommand enumerates the available commands that the AddNode function

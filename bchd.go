@@ -15,11 +15,11 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/Aviator-Coding/bchd/blockchain/indexers"
-	"github.com/Aviator-Coding/bchd/database"
-	"github.com/Aviator-Coding/bchd/limits"
-	"github.com/Aviator-Coding/bchd/version"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/blockchain/indexers"
+	"github.com/aviator-coding/bchd/database"
+	"github.com/aviator-coding/bchd/limits"
+	"github.com/aviator-coding/bchd/version"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 const (

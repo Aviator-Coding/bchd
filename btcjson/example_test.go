@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // Create a new getblock command. Notice the call to btcjson.Uint32 which is a

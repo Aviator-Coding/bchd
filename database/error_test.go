@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/database"
+	"github.com/aviator-coding/bchd/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

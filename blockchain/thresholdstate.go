@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on

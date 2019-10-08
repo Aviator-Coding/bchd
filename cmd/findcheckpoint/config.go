@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/database"
-	_ "github.com/Aviator-Coding/bchd/database/ffldb"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/database"
+	_ "github.com/aviator-coding/bchd/database/ffldb"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 	flags "github.com/jessevdk/go-flags"
 )

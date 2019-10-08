@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/txscript"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

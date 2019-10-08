@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Aviator-Coding/bchd/bchec"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/bchec"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

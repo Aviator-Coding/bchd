@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 var (

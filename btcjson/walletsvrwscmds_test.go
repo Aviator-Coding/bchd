@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // TestWalletSvrWsCmds tests all of the wallet server websocket-specific

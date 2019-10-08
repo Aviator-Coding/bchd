@@ -3,7 +3,7 @@ connmgr
 
 [![Build Status](https://travis-ci.org/gcash/bchd.png?branch=master)](https://travis-ci.org/gcash/bchd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Aviator-Coding/bchd/connmgr)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/aviator-coding/bchd/connmgr)
 
 Package connmgr implements a generic Bitcoin network connection manager.
 
@@ -29,7 +29,7 @@ In addition the connection manager provides the following utilities:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/Aviator-Coding/bchd/connmgr
+$ go get -u github.com/aviator-coding/bchd/connmgr
 ```
 
 ## License

@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/peer"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/peer"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

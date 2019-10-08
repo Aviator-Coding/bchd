@@ -8,8 +8,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/bchec"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/bchec"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

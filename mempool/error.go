@@ -5,8 +5,8 @@
 package mempool
 
 import (
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

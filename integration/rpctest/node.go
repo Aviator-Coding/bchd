@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/Aviator-Coding/bchd/rpcclient"
+	rpc "github.com/aviator-coding/bchd/rpcclient"
 	"github.com/gcash/bchutil"
 )
 

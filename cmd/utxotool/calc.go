@@ -3,11 +3,11 @@ package main
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/Aviator-Coding/bchd/bchec"
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/database"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/bchec"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/database"
+	"github.com/aviator-coding/bchd/wire"
 	"io"
 )
 

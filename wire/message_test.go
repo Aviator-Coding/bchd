@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // makeHeader is a convenience function to make a message header in the form of

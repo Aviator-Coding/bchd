@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

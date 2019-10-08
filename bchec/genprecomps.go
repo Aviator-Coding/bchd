@@ -17,7 +17,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Aviator-Coding/bchd/bchec"
+	"github.com/aviator-coding/bchd/bchec"
 )
 
 func main() {

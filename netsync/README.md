@@ -3,7 +3,7 @@ netsync
 
 [![Build Status](https://travis-ci.org/gcash/bchd.png?branch=master)](https://travis-ci.org/gcash/bchd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Aviator-Coding/bchd/netsync)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/aviator-coding/bchd/netsync)
 
 ## Overview
 
@@ -17,7 +17,7 @@ longest chain the sync peer is aware of.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/Aviator-Coding/bchd/netsync
+$ go get -u github.com/aviator-coding/bchd/netsync
 ```
 
 ## License

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/txscript"
 	"github.com/gcash/bchutil"
 )
 

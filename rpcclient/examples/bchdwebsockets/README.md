@@ -13,7 +13,7 @@ demonstrate clean shutdown.
 The first step is to use `go get` to download and install the rpcclient package:
 
 ```bash
-$ go get github.com/Aviator-Coding/bchd/rpcclient
+$ go get github.com/aviator-coding/bchd/rpcclient
 ```
 
 Next, modify the `main.go` source to specify the correct RPC username and
@@ -27,7 +27,7 @@ password for the RPC server:
 Finally, navigate to the example's directory and run it with:
 
 ```bash
-$ cd $GOPATH/src/github.com/Aviator-Coding/bchd/rpcclient/examples/bchdwebsockets
+$ cd $GOPATH/src/github.com/aviator-coding/bchd/rpcclient/examples/bchdwebsockets
 $ go run *.go
 ```
 

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

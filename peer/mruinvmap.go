@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // mruInventoryMap provides a concurrency safe map that is limited to a maximum

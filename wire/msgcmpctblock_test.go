@@ -3,7 +3,7 @@ package wire
 import (
 	"bytes"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 	"reflect"
 	"testing"
 )

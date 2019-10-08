@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/gcash/bchutil"
 )
 

@@ -7,7 +7,7 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg"
 	"github.com/gcash/bchutil"
 )
 

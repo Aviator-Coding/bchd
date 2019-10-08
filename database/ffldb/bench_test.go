@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/database"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/database"
 	"github.com/gcash/bchutil"
 )
 

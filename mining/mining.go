@@ -11,11 +11,11 @@ import (
 
 	"sort"
 
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/txscript"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 
