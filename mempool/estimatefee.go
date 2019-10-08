@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/mining"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/mining"
 	"github.com/gcash/bchutil"
 )
 

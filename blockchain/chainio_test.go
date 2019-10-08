@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/database"
+	"github.com/Aviator-Coding/bchd/wire"
 )
 
 // TestErrNotInMainChain ensures the functions related to errNotInMainChain work

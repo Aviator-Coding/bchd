@@ -31,12 +31,12 @@ The example code will show you how to:
 
 ### Example code
 
-[grpc.js](https://github.com/gcash/bchd/blob/master/bchrpc/documentation/client-usage-examples/nodejs-grpc/grpc.js)
+[grpc.js](https://github.com/Aviator-Coding/bchd/blob/master/bchrpc/documentation/client-usage-examples/nodejs-grpc/grpc.js)
 
 ### Run example
 
 ```
-git clone https://github.com/gcash/bchd.git
+git clone https://github.com/Aviator-Coding/bchd.git
 cd bchd/bchrpc/documentation/client-usage-examples/nodejs-grpc/
 node grpc.js
 ```

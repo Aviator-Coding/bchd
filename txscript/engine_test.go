@@ -5,12 +5,12 @@
 package txscript
 
 import (
-	"github.com/gcash/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/chaincfg"
 	"github.com/gcash/bchutil"
 	"testing"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/wire"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()
