@@ -3,7 +3,7 @@ package bchec
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
 	"testing"
 )
 

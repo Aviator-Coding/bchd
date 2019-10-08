@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
 )
 
 const (

@@ -23,13 +23,13 @@ import (
 	"golang.org/x/crypto/ripemd160"
 
 	"github.com/btcsuite/websocket"
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/btcjson"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/blockchain"
+	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/database"
+	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

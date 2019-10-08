@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/rpcclient"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

@@ -11,8 +11,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/database"
+	"github.com/Aviator-Coding/bchd/blockchain"
+	"github.com/Aviator-Coding/bchd/database"
 	"github.com/gcash/bchutil"
 )
 

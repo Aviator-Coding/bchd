@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/rpcclient"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

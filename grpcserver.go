@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/gcash/bchd/bchrpc"
+	"github.com/Aviator-Coding/bchd/bchrpc"
 	"github.com/improbable-eng/grpc-web/go/grpcweb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

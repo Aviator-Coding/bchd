@@ -7,12 +7,12 @@ package blockchain
 import (
 	"container/list"
 	"fmt"
-	"github.com/gcash/bchd/txscript"
+	"github.com/Aviator-Coding/bchd/txscript"
 	"sync"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/database"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

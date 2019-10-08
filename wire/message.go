@@ -10,7 +10,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
 )
 
 // MessageHeaderSize is the number of bytes in a bitcoin message header.
@@ -74,6 +74,7 @@ const (
 	CmdCmpctBlock   = "cmpctblock"
 	CmdGetBlockTxns = "getblocktxn"
 	CmdBlockTxns    = "blocktxn"
+	CmdGetSporks    = "getsporks"
 )
 
 // MessageEncoding represents the wire message encoding format to be used.
@@ -209,6 +210,9 @@ func makeEmptyMessage(command string) (Message, error) {
 
 	case CmdBlockTxns:
 		msg = &MsgBlockTxns{}
+
+	case CmdGetSporks:
+		msg = &MsgGetSporks{}
 
 	default:
 		return nil, fmt.Errorf("unhandled command [%s]", command)

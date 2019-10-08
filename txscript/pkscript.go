@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/bchec"
+	"github.com/Aviator-Coding/bchd/chaincfg"
 	"github.com/gcash/bchutil"
 	"golang.org/x/crypto/ripemd160"
 )

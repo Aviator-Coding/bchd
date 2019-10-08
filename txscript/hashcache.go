@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

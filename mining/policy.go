@@ -5,8 +5,8 @@
 package mining
 
 import (
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/blockchain"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

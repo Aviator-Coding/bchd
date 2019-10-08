@@ -20,10 +20,10 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/blockchain"
+	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/wire"
 )
 
 const (
@@ -215,6 +215,10 @@ type MessageListeners struct {
 	// OnBlockTxns is invoked when a peer receives a blocktxns bitcoin
 	// message.
 	OnBlockTxns func(p *Peer, msg *wire.MsgBlockTxns)
+
+	// OnGetSporks is invoked when a peer receives a getsporks bitcoin
+	// message.
+	OnGetSporks func(p *Peer, msg *wire.MsgGetSporks)
 
 	// OnRead is invoked when a peer receives a bitcoin message.  It
 	// consists of the number of bytes read, the message, and whether or not
@@ -1646,6 +1650,10 @@ out:
 			if p.cfg.Listeners.OnReject != nil {
 				p.cfg.Listeners.OnReject(p, msg)
 			}
+		case *wire.MsgGetSporks:
+			if p.cfg.Listeners.OnGetSporks != nil {
+				p.cfg.Listeners.OnGetSporks(p, msg)
+			}
 
 		case *wire.MsgSendHeaders:
 			p.flagsMtx.Lock()
@@ -2063,6 +2071,14 @@ func (p *Peer) readRemoteVersionMsg() error {
 	remoteMsg, _, err := p.readMessage(wire.LatestEncoding)
 	if err != nil {
 		return err
+	}
+
+	_, okSporks := remoteMsg.(*wire.MsgGetSporks)
+	if okSporks {
+		remoteMsg, _, err = p.readMessage(wire.LatestEncoding)
+		if err != nil {
+			return err
+		}
 	}
 
 	// Notify and disconnect clients if the first message is not a version

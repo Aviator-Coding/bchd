@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/integration/rpctest"
+	"github.com/Aviator-Coding/bchd/blockchain"
+	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/integration/rpctest"
 )
 
 const (

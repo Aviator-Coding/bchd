@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/wire"
 )
 
 // randAddr generates a *wire.NetAddress backed by a random IPv4/IPv6 address.

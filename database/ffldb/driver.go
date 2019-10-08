@@ -7,8 +7,8 @@ package ffldb
 import (
 	"fmt"
 
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/database"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchlog"
 )
 

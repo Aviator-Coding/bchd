@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gcash/bchd/rpcclient"
+	"github.com/Aviator-Coding/bchd/rpcclient"
 	"github.com/gcash/bchutil"
 )
 

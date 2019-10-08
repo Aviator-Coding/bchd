@@ -11,12 +11,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/mempool"
-	"github.com/gcash/bchd/peer"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/mempool"
+	"github.com/Aviator-Coding/bchd/peer"
+	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

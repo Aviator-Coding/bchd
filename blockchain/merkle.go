@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
 	"github.com/gcash/bchutil"
 )
 

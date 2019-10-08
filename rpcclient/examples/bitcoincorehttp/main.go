@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"github.com/gcash/bchd/rpcclient"
+	"github.com/Aviator-Coding/bchd/rpcclient"
 )
 
 func main() {

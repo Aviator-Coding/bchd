@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
+	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/Aviator-Coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 
