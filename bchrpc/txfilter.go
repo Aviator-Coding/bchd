@@ -3,11 +3,11 @@ package bchrpc
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/Aviator-Coding/bchd/bchrpc/pb"
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/txscript"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/bchrpc/pb"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 	"golang.org/x/crypto/ripemd160"
 )

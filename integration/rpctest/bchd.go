@@ -49,7 +49,7 @@ func bchdExecutablePath() (string, error) {
 	if runtime.GOOS == "windows" {
 		outputPath += ".exe"
 	}
-	cmd := exec.Command("go", "build", "-o", outputPath, "github.com/Aviator-Coding/bchd")
+	cmd := exec.Command("go", "build", "-o", outputPath, "github.com/aviator-coding/bchd")
 	cmd.Stdout, cmd.Stderr = os.Stdout, os.Stderr
 	err = cmd.Run()
 	if err != nil {

@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/addrmgr"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/addrmgr"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

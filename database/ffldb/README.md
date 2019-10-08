@@ -3,7 +3,7 @@ ffldb
 
 [![Build Status](https://travis-ci.org/gcash/bchd.png?branch=master)](https://travis-ci.org/gcash/bchd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/Aviator-Coding/bchd/database/ffldb?status.png)](http://godoc.org/github.com/Aviator-Coding/bchd/database/ffldb)
+[![GoDoc](https://godoc.org/github.com/aviator-coding/bchd/database/ffldb?status.png)](http://godoc.org/github.com/aviator-coding/bchd/database/ffldb)
 =======
 
 Package ffldb implements a driver for the database package that uses leveldb for

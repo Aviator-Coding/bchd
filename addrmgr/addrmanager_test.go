@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/addrmgr"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/addrmgr"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

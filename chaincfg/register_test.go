@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/Aviator-Coding/bchd/chaincfg"
+	. "github.com/aviator-coding/bchd/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

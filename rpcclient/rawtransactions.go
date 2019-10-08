@@ -10,9 +10,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

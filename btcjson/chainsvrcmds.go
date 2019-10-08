@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 // AddNodeSubCmd defines the type used in the addnode JSON-RPC command for the

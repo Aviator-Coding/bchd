@@ -13,7 +13,7 @@ import (
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
-	"github.com/Aviator-Coding/bchd/database/internal/treap"
+	"github.com/aviator-coding/bchd/database/internal/treap"
 )
 
 const (

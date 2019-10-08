@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 const (

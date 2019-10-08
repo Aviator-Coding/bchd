@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/database"
-	"github.com/Aviator-Coding/bchd/database/ffldb"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/database"
+	"github.com/aviator-coding/bchd/database/ffldb"
 	"github.com/gcash/bchutil"
 )
 

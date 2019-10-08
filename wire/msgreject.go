@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // RejectCode represents a numeric value by which a remote peer indicates

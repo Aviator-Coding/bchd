@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/database"
-	_ "github.com/Aviator-Coding/bchd/database/ffldb"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/database"
+	_ "github.com/aviator-coding/bchd/database/ffldb"
 	"github.com/gcash/bchutil"
 )
 

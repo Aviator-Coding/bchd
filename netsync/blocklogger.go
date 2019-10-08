@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/blockchain"
 	"github.com/gcash/bchlog"
 	"github.com/gcash/bchutil"
 )

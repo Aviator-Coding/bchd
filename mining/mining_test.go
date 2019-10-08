@@ -6,9 +6,9 @@ package mining
 
 import (
 	"container/heap"
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/txscript"
 	"math/rand"
 	"testing"
 

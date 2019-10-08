@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/Aviator-Coding/bchd/bchec"
-	"github.com/Aviator-Coding/bchd/txscript"
+	"github.com/aviator-coding/bchd/bchec"
+	"github.com/aviator-coding/bchd/txscript"
 )
 
 // -----------------------------------------------------------------------------

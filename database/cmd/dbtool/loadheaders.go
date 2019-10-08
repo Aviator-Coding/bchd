@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/database"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/database"
 )
 
 // headersCmd defines the configuration options for the loadheaders command.

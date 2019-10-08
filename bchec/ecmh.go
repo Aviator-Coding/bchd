@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // Multiset tracks the state of a multiset as used to calculate the ECMH

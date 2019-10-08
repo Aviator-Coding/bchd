@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the

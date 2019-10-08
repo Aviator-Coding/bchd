@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/rpcclient"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/rpcclient"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

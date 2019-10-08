@@ -7,12 +7,12 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/Aviator-Coding/bchd/blockchain"
-	"github.com/Aviator-Coding/bchd/chaincfg/chainhash"
-	"github.com/Aviator-Coding/bchd/mempool"
-	"github.com/Aviator-Coding/bchd/netsync"
-	"github.com/Aviator-Coding/bchd/peer"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/blockchain"
+	"github.com/aviator-coding/bchd/chaincfg/chainhash"
+	"github.com/aviator-coding/bchd/mempool"
+	"github.com/aviator-coding/bchd/netsync"
+	"github.com/aviator-coding/bchd/peer"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 

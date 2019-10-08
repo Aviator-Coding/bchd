@@ -26,7 +26,7 @@
 //          "log"
 //
 //          "github.com/gcash/bchutil"
-//          "github.com/Aviator-Coding/bchd/chaincfg"
+//          "github.com/aviator-coding/bchd/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

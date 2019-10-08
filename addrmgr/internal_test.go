@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

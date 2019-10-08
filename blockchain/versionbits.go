@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/chaincfg"
 )
 
 const (

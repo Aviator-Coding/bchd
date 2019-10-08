@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

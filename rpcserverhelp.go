@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Aviator-Coding/bchd/btcjson"
+	"github.com/aviator-coding/bchd/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

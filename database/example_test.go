@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Aviator-Coding/bchd/chaincfg"
-	"github.com/Aviator-Coding/bchd/database"
-	_ "github.com/Aviator-Coding/bchd/database/ffldb"
-	"github.com/Aviator-Coding/bchd/wire"
+	"github.com/aviator-coding/bchd/chaincfg"
+	"github.com/aviator-coding/bchd/database"
+	_ "github.com/aviator-coding/bchd/database/ffldb"
+	"github.com/aviator-coding/bchd/wire"
 	"github.com/gcash/bchutil"
 )
 
@@ -22,8 +22,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/Aviator-Coding/bchd/database"
-	// 	_ "github.com/Aviator-Coding/bchd/database/ffldb"
+	// 	"github.com/aviator-coding/bchd/database"
+	// 	_ "github.com/aviator-coding/bchd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -48,8 +48,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/Aviator-Coding/bchd/database"
-	// 	_ "github.com/Aviator-Coding/bchd/database/ffldb"
+	// 	"github.com/aviator-coding/bchd/database"
+	// 	_ "github.com/aviator-coding/bchd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -114,8 +114,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/Aviator-Coding/bchd/database"
-	// 	_ "github.com/Aviator-Coding/bchd/database/ffldb"
+	// 	"github.com/aviator-coding/bchd/database"
+	// 	_ "github.com/aviator-coding/bchd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

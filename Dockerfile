@@ -5,10 +5,10 @@ FROM golang
 LABEL maintainer="Josh Ellithorpe <quest@mac.com>"
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/Aviator-Coding/bchd
+ADD . /go/src/github.com/aviator-coding/bchd
 
 # Switch to the correct working directory.
-WORKDIR /go/src/github.com/Aviator-Coding/bchd
+WORKDIR /go/src/github.com/aviator-coding/bchd
 
 # Build the code and the cli client.
 RUN go install .
