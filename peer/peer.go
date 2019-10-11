@@ -220,6 +220,16 @@ type MessageListeners struct {
 	// message.
 	OnGetSporks func(p *Peer, msg *wire.MsgGetSporks)
 
+	// The senddsq message is used to notify a peer whether or not to send dsq messages. 
+	// This allows clients that are not interested in PrivateSend mixing (e.g. mobile wallet) to minimize data usage.
+	OnSendDsq func(p *Peer, msg *wire.MsgSendDsq)
+
+	// qsendrecsigs message is used to notify a peer to send plain LLMQ recovered signatures 
+	// (inventory type MSG_QUORUM_RECOVERED_SIG). Otherwise the peer would only announce/send the 
+	// higher level messages produced when a recovered signature is found (e.g. InstantSend islock 
+	// messages or ChainLock clsig messages).
+	OnMsgQsendRecSigs func(p *Peer, msg *wire.MsgQsendRecSigs)
+
 	// OnRead is invoked when a peer receives a bitcoin message.  It
 	// consists of the number of bytes read, the message, and whether or not
 	// an error in the read occurred.  Typically, callers will opt to use
@@ -1653,6 +1663,16 @@ out:
 		case *wire.MsgGetSporks:
 			if p.cfg.Listeners.OnGetSporks != nil {
 				p.cfg.Listeners.OnGetSporks(p, msg)
+			}
+
+		case *wire.MsgSendDsq:
+			if p.cfg.Listeners.OnSendDsq != nil {
+				p.cfg.Listeners.OnSendDsq(p, msg)
+			}
+		
+		case *wire.MsgQsendRecSigs:
+			if p.cfg.Listeners.OnMsgQsendRecSigs != nil {
+				p.cfg.Listeners.OnMsgQsendRecSigs(p, msg)
 			}
 
 		case *wire.MsgSendHeaders:

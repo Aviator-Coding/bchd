@@ -75,6 +75,8 @@ const (
 	CmdGetBlockTxns = "getblocktxn"
 	CmdBlockTxns    = "blocktxn"
 	CmdGetSporks    = "getsporks"
+	CmdSendDsq      = "senddsq"
+	CmdQsendRecSigs = "qsendrecsigs"
 )
 
 // MessageEncoding represents the wire message encoding format to be used.
@@ -213,6 +215,12 @@ func makeEmptyMessage(command string) (Message, error) {
 
 	case CmdGetSporks:
 		msg = &MsgGetSporks{}
+
+	case CmdSendDsq:
+		msg = &MsgSendDsq{}
+
+	case CmdQsendRecSigs:
+		msg = &MsgQsendRecSigs{}
 
 	default:
 		return nil, fmt.Errorf("unhandled command [%s]", command)
