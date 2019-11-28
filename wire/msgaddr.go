@@ -70,15 +70,15 @@ func (msg *MsgAddr) BchDecode(r io.Reader, pver uint32, enc MessageEncoding) err
 		return messageError("MsgAddr.BchDecode", str)
 	}
 
-	addrList := make([]NetAddress, count)
-	msg.AddrList = make([]*NetAddress, 0, count)
+	//addrList := make([]NetAddress, count)
+	msg.AddrList = make([]*NetAddress, count)
 	for i := uint64(0); i < count; i++ {
-		na := &addrList[i]
-		err := readNetAddress(r, pver, na, true)
+		msg.AddrList[i] = &NetAddress{}
+		err := readNetAddress(r, pver, msg.AddrList[i], true)
 		if err != nil {
 			return err
 		}
-		msg.AddAddress(na)
+		//msg.AddAddress(msg.AddrList[i])
 	}
 	return nil
 }
